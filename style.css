@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Belanosima", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background-image: url("./images/library-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 550px;
+  margin-top: 5%;
+}
+.header {
+  width: 70%;
+  font-size: 1.6rem;
+  border: solid 2px white;
+  color: white;
+  background-color: #262626;
+  padding: 5px;
+  margin: 30px auto;
+  border-radius: 8px;
+}
+.main-div {
+  padding: 50px 40px;
+  height: 60%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px;
+}
+.main-div .text-area {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.main-div .person {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: burlywood;
+  text-transform: capitalize;
+}
+
+.button-area button {
+  margin-top: 30px;
+  background-color: #262626;
+  color: white;
+  font-size: 1.6rem;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.button-area button:active {
+  background-color: burlywood;
+}
